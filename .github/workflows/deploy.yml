@@ -27,12 +27,10 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        working-directory: instacheck
-        run: npm install
+        run: npm install --prefix instacheck
 
       - name: Build project
-        working-directory: instacheck
-        run: npm run build
+        run: npm run build --prefix instacheck
 
       - name: Upload dist artifact
         uses: actions/upload-pages-artifact@v3
