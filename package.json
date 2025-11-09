@@ -2,7 +2,7 @@
   "name": "instacheck",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://oscarbrimelow.github.io/InstagramCompare",
   "type": "module",
   "scripts": {
     "dev": "vite",
